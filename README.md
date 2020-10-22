@@ -25,9 +25,11 @@ Vid2Vid
 
 * Video Disentangle 
 
-[MoCoGAN](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/MoCoGAN.md)
+  [MoCoGAN](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/MoCoGAN.md)
 
-[TwoStreamVAN](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/TwoStreamVAN.md)
+  [TwoStreamVAN](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/TwoStreamVAN.md)
+
+  
 
 
 
