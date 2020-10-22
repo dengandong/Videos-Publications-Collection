@@ -1,6 +1,6 @@
 # Videos Publications Collectioin
 
-This is a collection of all the publications in the field of video understanding and synthesis I recently have read, including Action Recognition, Video Generation, Video Self-supervised Learning and some Classical papers, etc..
+This is a collection of all the publications in the field of video understanding and synthesis I  have recently read, including Action Recognition, Video Generation, Video Self-supervised Learning and some Classical papers, etc..
 
 This repo will keep updating during my research.
 
