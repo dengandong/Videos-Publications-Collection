@@ -1,5 +1,7 @@
 # Videos Publications Collectioin
 
+Humans are born to see, and to adapt to this visual world. After the visual signal stimulates the neurons, we learn concepts. we associate one thing with another, seeing waterfall we think about the galaxy, we imagine, and we finally create, updating this visual world. And some of us are trying to gift this ability to intelligent agent, leading an unprecedented scientific trend.
+
 This is a collection of video publications I have recently read, including Action Recognition, Video Generation, Video Self-supervised Learning and some Classical papers, etc..
 
 This repo will keep updating during my research.
