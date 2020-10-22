@@ -12,5 +12,5 @@ This paper proposes the novel task of video generation conditioned on a SINGLE s
 
 ## Framework
 
-![seg2vid]()
+![seg2vid](https://github.com/antony0621/Publications-of-Video/blob/master/pics/Seg2Vid/Seg2Vid.png)
 
