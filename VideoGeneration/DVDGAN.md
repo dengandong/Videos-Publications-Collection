@@ -38,6 +38,10 @@ Generative models of natural images have progressed towards high fidelity sample
 
 ***Hinge Loss***
 
+Hinge loss of GAN is an extention of Earth Move Distance (EMD), i.e. the loss in [WGAN](https://arxiv.org/pdf/1701.07875.pdf). The hinge loss appears originally in SVM, which is used to push the positive samples and negative samples as far as possible. For the discriminator, the hinge loss reduce the impact on the gradient brought by samples in distant interval, which stabilizes the training procedure.
+
+More details about hinge loss in GAN please go to [Geometric GAN]().
+
 ![hinge_loss](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/HingeLoss.png)
 
 
