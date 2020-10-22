@@ -29,7 +29,7 @@ Generating Videos with Scene Dynamics
 
 Generating the Futures with Adversarial Transformers
 
-* **Video Disentangle** 
+* **Video Disentanglement**
 
   [MoCoGAN](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/MoCoGAN.md)
 
