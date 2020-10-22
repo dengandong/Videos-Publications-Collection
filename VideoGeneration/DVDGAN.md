@@ -58,3 +58,13 @@ The input of the generation is a concatenation of a Gaussian prior and the class
 
 ![kinetics600_results](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/Kinetics600_results.png) 
 
+
+
+***TO BE CONTINUE ...***
+
+
+
+
+
+
+
