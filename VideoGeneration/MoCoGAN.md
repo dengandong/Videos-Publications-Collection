@@ -12,5 +12,11 @@ Visual signals in a video can be divided into content and motion. While content 
 
 ## Framework
 
-Gnerating a latent code sequence from a prior as motion code, and a latent code as content code.
+Gnerating a latent code sequence from a prior as motion code, and a latent code as content code. Concatenate the content code in each time step to the motion code, and feed them into a generator.
+
+Two discriminators are operated on  image level and video level, resp.
+
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/MoCoGAN/Framework.png)
+
+
 
