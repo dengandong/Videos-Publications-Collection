@@ -12,13 +12,27 @@ This paper proposes the novel task of video generation conditioned on a SINGLE s
 
 ## Framework
 
-Seg2Img --> Img2Vid
+**Seg2Img** --> **Img2Vid**
 
-![framework]()
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/Seg2Vid/framework.png)
 
-A two-stage network which consists of flow&mask generation by cVAE and a post-processing by a U-Net.
+In stage1, a pix2pixHD was utilized to generate images from the corresponding semantic label as the starting frame.
 
-The encoders of the cVAE contain a video encoder and an image encoder, which are used to extract motion vector and 
+In stage2, the generated image is fed into the network along with a latent vector which models stochasticity to obtain bi-directional flow and occlusion mask. After this, a post-processing U-Net is used to generate the video based on the starting frame and the flow and mask.
+
+The latet vector is sampled from a Gaussian distribution, which is trained with a cVAE in the training stage by reducing the KL divergence of the representation extracted from the video and the Gaussian prior.
 
 ![seg2vid](https://github.com/antony0621/Publications-of-Video/blob/master/pics/Seg2Vid/Seg2Vid.png)
+
+
+
+## Related Work
+
+Vid2Vid: Semantic label sequence to video sequence
+
+
+
+## Loss
+
+***TODO***
 
