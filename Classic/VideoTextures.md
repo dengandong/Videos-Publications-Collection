@@ -47,5 +47,5 @@ Find places in the original video where a transition can be made to some other p
 
 ![system](https://github.com/antony0621/Publications-of-Video/blob/master/pics/VideoTextures/system.png)
 
-
+![pendulum](https://github.com/antony0621/Publications-of-Video/blob/master/pics/VideoTextures/pendulum.png)
 
