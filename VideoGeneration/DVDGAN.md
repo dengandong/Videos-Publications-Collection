@@ -24,9 +24,13 @@ Spatial Discriminator: Frame Randomly Sampling and 2DConv
 
 Temporal Discriminator: Dwonsampling and 3DConv
 
+### Basic Structure
 
+![basic_dvdgan](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/DVDGAN.png)
 
-![dvdgan](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/DVDGAN.png)
+### Structure for Future Prediction
+
+![dvdgan_fp]()
 
 
 
