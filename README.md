@@ -21,7 +21,7 @@ SVG-LP
 
 Vid2Vid
 
-[Sig2Vid](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/Seg2Vid.md)
+[Seg2Vid](https://github.com/antony0621/Publications-of-Video/blob/master/VideoGeneration/Seg2Vid.md)
 
 TGAN
 
