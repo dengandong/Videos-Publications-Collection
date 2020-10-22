@@ -30,7 +30,7 @@ Temporal Discriminator: Dwonsampling and 3DConv
 
 ### Structure for Future Prediction
 
-![dvdgan_fp]()
+![dvdgan_fp](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/DVDGAN_FP.png)
 
 
 
