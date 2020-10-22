@@ -14,21 +14,21 @@ Generative models of natural images have progressed towards high fidelity sample
 
 ## Framework
 
-### Generator 
+***Generator*** 
 
-Stacked GRUCell and 2DConvResBlock
+* Stacked GRUCell and 2DConvResBlock
 
-### Discriminator
+***Discriminator (Dual)***
 
-Spatial Discriminator: Frame Randomly Sampling and 2DConv
+* Spatial Discriminator: Frame Randomly Sampling and 2DConv
 
-Temporal Discriminator: Dwonsampling and 3DConv
+* Temporal Discriminator: Dwonsampling and 3DConv
 
-### Basic Structure
+***Basic Structure***
 
 ![basic_dvdgan](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/DVDGAN.png)
 
-### Structure for Future Prediction
+***Structure for Future Prediction***
 
 ![dvdgan_fp](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/DVDGAN_FP.png)
 
@@ -36,7 +36,21 @@ Temporal Discriminator: Dwonsampling and 3DConv
 
 ## Loss Function
 
-Hinge Loss
+***Hinge Loss***
 
 ![hinge_loss](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/HingeLoss.png)
+
+
+
+## Experiments
+
+***Class-Conditional Video Synthesis***
+
+The input of the generation is a concatenation of a Gaussian prior and the class specific embedding.
+
+
+
+***Results on Kinetics-600***
+
+![kinetics600_results](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/Kinetics600_results.png) 
 
