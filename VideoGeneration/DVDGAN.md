@@ -26,7 +26,7 @@ Temporal Discriminator: Dwonsampling and 3DConv
 
 
 
-![dvdgan](pics/DVDGAN/DVDGAN.png)
+![dvdgan](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/DVDGAN.png)
 
 
 
@@ -34,4 +34,5 @@ Temporal Discriminator: Dwonsampling and 3DConv
 
 Hinge Loss
 
-![hinge_loss](pics/DVDGAN/HingeLoss.png)
+![hinge_loss](https://github.com/antony0621/Publications-of-Video/blob/master/pics/DVDGAN/HingeLoss.png)
+
