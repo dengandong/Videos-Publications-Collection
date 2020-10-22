@@ -8,12 +8,6 @@ This repo will keep updating during my research.
 
 
 
-## Classic
-
-[VideoTextures](Classic/VideoTextures.md)
-
-
-
 
 ## Video Generation
 
@@ -156,6 +150,12 @@ Reasoning Visual Dialogs with Structural and Partial Observations
 Convolutional Sequence Generation for Skeleton-Based Action Synthesis
 
 Unsupervised Keypoint Learning for Guiding Class-Conditional Video Prediction
+
+
+
+## Classic
+
+[VideoTextures](Classic/VideoTextures.md)
 
 
 
