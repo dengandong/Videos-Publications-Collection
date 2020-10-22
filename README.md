@@ -5,7 +5,7 @@ This repo will keep updating during my research.
 
 ## Classic
 
-[VideoTextures](Classic/VideoTexftures.md)
+[VideoTextures](Classic/VideoTextures.md)
 
 
 ## Video Generation
