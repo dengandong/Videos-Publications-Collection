@@ -12,5 +12,13 @@ This paper proposes the novel task of video generation conditioned on a SINGLE s
 
 ## Framework
 
+Seg2Img --> Img2Vid
+
+![framework]()
+
+A two-stage network which consists of flow&mask generation by cVAE and a post-processing by a U-Net.
+
+The encoders of the cVAE contain a video encoder and an image encoder, which are used to extract motion vector and 
+
 ![seg2vid](https://github.com/antony0621/Publications-of-Video/blob/master/pics/Seg2Vid/Seg2Vid.png)
 
