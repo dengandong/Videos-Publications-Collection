@@ -57,6 +57,8 @@ Generating the Futures with Adversarial Transformers
 
 ## Video Self-supervised Learning
 
+[Learning Correspondence from the Cycle-consistency of Time](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoSSL/Learning_Correspondence_from_the_Cycle-consistency_of_Time.md)
+
 Learning and Using the Arrow of Time
 
 Self-supervised Learning for Video Correspondence Flow
