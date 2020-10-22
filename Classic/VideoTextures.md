@@ -45,3 +45,7 @@ Video textures can be viewed as a kind of "video-based rendering" or an extensio
 
 Find places in the original video where a transition can be made to some other place in the video clip without introducing noticeable discontinuities.
 
+![system](https://github.com/antony0621/Publications-of-Video/blob/master/pics/VideoTextures/system.png)
+
+
+
