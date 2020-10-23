@@ -8,3 +8,11 @@ Humans are able to localize objects in the environment using both visual and aud
 
 [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Gan_Self-Supervised_Moving_Vehicle_Tracking_With_Stereo_Sound_ICCV_2019_paper.pdf)
 
+
+
+## Framework
+
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SelfSupMovingVehicleTrackingwithStereoSound/framework.png)
+
+
+
