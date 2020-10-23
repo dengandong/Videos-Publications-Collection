@@ -14,5 +14,9 @@ We learn rich natural sound representations by capitalizing on large amounts of 
 
 This work utilizes visual pre-trained network (e.g. VGG net) to extract the representaion of the video, and minimizes the KL-divergence of the visual presentation and the output of the SoundNet which is used to process the audio track of the corresponding video. In this way, the knowledge is transferred from the visual model to the SoundNet. 
 
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundNet/framework.png)
+
+
+
 
 
