@@ -137,17 +137,17 @@ Learning Blind Video Temporal Consistency
 
 ## Multi-modalities
 
-SoundNet
+[SoundNet](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/SoundNet.md)
 
-The Sound of Pixels
+[The Sound of Pixels](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/The_Sound_of_Pixels.md)
 
-The Sound of Motions
+[The Sound of Motions](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/The_Sound_of_Motions.md)
 
-Learning to Learn Words from Visual Scenes
+[Learning to Learn Words from Visual Scenes](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Learning_to_Learn_words_from_Visual_Scenes.md)
 
-VideoBERT
+[VideoBERT](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/VideoBERT.md)
 
-Self-supervised Moving Vehicle Tracking with Stereo Sound
+[Self-supervised Moving Vehicle Tracking with Stereo Sound](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Self-supervised_Moving_Vehicle_Tracking_with_Stereo_Sound.md)
 
 
 
