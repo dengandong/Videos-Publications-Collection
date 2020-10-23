@@ -135,6 +135,22 @@ Learning Blind Video Temporal Consistency
 
 
 
+## Multi-modalities
+
+SoundNet
+
+The Sound of Pixels
+
+The Sound of Motions
+
+Learning to Learn Words from Visual Scenes
+
+VideoBERT
+
+Self-supervised Moving Vehicle Tracking with Stereo Sound
+
+
+
 ## Video Object Segmentation
 
 Zero-Shot Video Object Segmentation via Attentive Graph Neural Networks
