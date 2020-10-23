@@ -173,7 +173,7 @@ Unsupervised Keypoint Learning for Guiding Class-Conditional Video Prediction
 
 ## Classic
 
-[VideoTextures](Classic/VideoTextures.md)
+[Video Textures](Classic/VideoTextures.md)
 
 
 
