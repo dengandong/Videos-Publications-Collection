@@ -1,4 +1,4 @@
-# Spatio-temporal Video Autoencoder with Differentiablee Memory
+# Spatio-temporal Video Autoencoder with Differentiable Memory
 
 
 
