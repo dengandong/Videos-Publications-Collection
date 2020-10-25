@@ -133,6 +133,8 @@ All at Once: Temporally Adaptive Multi-Frame Interpolation with Advanced Motion 
 
 [Deep Slow Motion Video Reconstruction with Hybrid Imaging System](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoInterpolation/DeepSloMo.md)
 
+[Depth-Aware Video Frame Interpolation](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoInterpolation/Depth-AwareVideoFrameInterpolation.md)
+
 
 
 ## Temporal Coherence
