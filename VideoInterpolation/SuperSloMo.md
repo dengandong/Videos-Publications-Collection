@@ -12,6 +12,18 @@ Given two consecutive frames, video interpolation aims at generating intermediat
 
 ## Method
 
+**Temporal Consistency and Occlusion Reasoning with Backward Warping Function** 
+
+![interpolation](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SuperSloMo/interpolation.png)
+
 **Unsupervised Optical-flow Estimation**
+
+![flow](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SuperSloMo/flow.png)
+
+![flow2](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SuperSloMo/flow2.png)
+
+$$\widehat{F}_t\to1=(1-t)F_0\to1$$ 
+
+**Framework**
 
 ![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SuperSloMo/framework.png)
