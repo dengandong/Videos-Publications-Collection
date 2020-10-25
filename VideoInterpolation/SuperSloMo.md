@@ -24,8 +24,6 @@ Given two consecutive frames, video interpolation aims at generating intermediat
 
 
 
-$(2+3)[4+4]$
-
 
 
 **Framework**
