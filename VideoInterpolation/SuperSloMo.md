@@ -22,7 +22,7 @@ Given two consecutive frames, video interpolation aims at generating intermediat
 
 ![flow2](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SuperSloMo/flow2.png)
 
-$$\widehat{F}_t\to1=(1-t)F_0\to1$$ 
+$\delta$ 
 
 **Framework**
 
