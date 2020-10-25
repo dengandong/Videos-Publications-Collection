@@ -32,7 +32,7 @@ Following [See, Hear, and Read: Deep Aligned Representations](http://people.csai
 
 In which, 
 
-
+![loss_phi](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SelfSupMovingVehicleTrackingwithStereoSound/loss_phi.png)
 
 
 
