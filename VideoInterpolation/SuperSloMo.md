@@ -12,5 +12,6 @@ Given two consecutive frames, video interpolation aims at generating intermediat
 
 ## Method
 
-**Single Frame Interpolation**
 
+
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SuperSloMo/framework.png)

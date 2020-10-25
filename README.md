@@ -121,7 +121,7 @@ Learning Human-Object Interactions by Graph Parsing Neural Networks
 
 ## Video Interpolation
 
-Super SloMo
+[Super SloMo](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoInterpolation/SuperSloMo.md)
 
 All at Once: Temporally Adaptive Multi-Frame Interpolation with Advanced Motion Modeling
 
