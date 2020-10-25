@@ -12,7 +12,21 @@ Humans are able to localize objects in the environment using both visual and aud
 
 ## Framework
 
+Paradigm: Teacher-sturent training.
+
+Visual branch: Pre-trained YOLOv2
+
+Auditory branch: StereoSoundNet trained from scratch
+
 ![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SelfSupMovingVehicleTrackingwithStereoSound/framework.png)
+
+
+
+## Loss
+
+**Feature alignment loss**
+
+Following [See, Hear, and Read: Deep Aligned Representations](http://people.csail.mit.edu/yusuf/see-hear-read/paper.pdf), ranking loss is leveraged to constrain the features in different subnetworks at same level.
 
 
 
