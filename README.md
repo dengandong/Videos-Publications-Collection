@@ -83,6 +83,12 @@ Delving Deeper into Convolutional Networks for Learning Video Representations
 
 
 
+# Architecture
+
+[Spatio-temporal Video Autoencoder with Differentiablee Memory]()
+
+
+
 ## Video Inpainting
 
 Copy-and-Paste
