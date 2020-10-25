@@ -28,5 +28,11 @@ Auditory branch: StereoSoundNet trained from scratch
 
 Following [See, Hear, and Read: Deep Aligned Representations](http://people.csail.mit.edu/yusuf/see-hear-read/paper.pdf), ranking loss is leveraged to constrain the features in different subnetworks at same level.
 
+![loss1](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SelfSupMovingVehicleTrackingwithStereoSound/loss1.png)
+
+In which, 
+
+
+
 
 
