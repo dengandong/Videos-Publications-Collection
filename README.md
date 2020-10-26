@@ -137,6 +137,8 @@ FlowNet
 
 [SfM-Net](https://github.com/antony0621/Videos-Publications-Collection/blob/master/SfM/SfM-Net.md)
 
+[Unsupervised Learning of Depth and Ego-Motion from Video](https://github.com/antony0621/Videos-Publications-Collection/blob/master/SfM/SfMLearner.md)
+
 
 
 ## Video Interpolation
