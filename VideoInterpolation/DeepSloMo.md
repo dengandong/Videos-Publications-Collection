@@ -46,6 +46,7 @@ More like a frame super resolution method?
 
 ![results](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/results.png)
 
-**Comparison with Gupta's method**
+**Comparison with [Gupta's method](http://grail.cs.washington.edu/projects/enhancing-spacetime/)**
 
 ![gupta](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/gupta.png)
+
