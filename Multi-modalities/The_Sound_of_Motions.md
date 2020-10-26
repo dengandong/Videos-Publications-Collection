@@ -22,7 +22,7 @@ The framework is consist of four components: a **motion network**, an **appearan
 
 **Fusion Module**
 
-![fusion](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofMotion/framework.png)
+![fusion](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofMotion/fusion.png)
 
 **Curriculim Learning on Sound Separation Net**
 
