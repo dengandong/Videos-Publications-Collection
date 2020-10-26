@@ -36,7 +36,7 @@ Similar with ***SuperSloMo***.
 
 
 
-More like a frame super resolution method?
+A spacetime resolution enhancing approach?
 
 
 

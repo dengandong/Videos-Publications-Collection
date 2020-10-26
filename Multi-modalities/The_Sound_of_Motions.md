@@ -8,3 +8,10 @@ Sounds originate from object motions and vibrations of surrounding air. Inspired
 
 [[papers]](https://arxiv.org/pdf/1904.05979.pdf) [[demo]](http://people.csail.mit.edu/hangzhao/videos/SoM_supp.mp4) 
 
+
+
+## Framework
+
+The framework is consist of four components: a **motion network**, an **appearance network**, a **fusion module**, and a **sound separation network**. The motion network takes a sequence of frames and outputs trajectory features; appearance network takes the first video frame and outputs appearance features; fusion module fuses appearance and trajectory features; sound separation network separates the input audio conditioned on the visual features.
+
+![framework]()

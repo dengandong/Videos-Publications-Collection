@@ -36,3 +36,11 @@ In which,
 
 
 
+## Experiments
+
+**Visualization of cross-modal auditory localization results of one video clip and its corresponding input spectrograms**
+
+![cor](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SelfSupMovingVehicleTrackingwithStereoSound/correspondence.png)
+
+
+
