@@ -85,8 +85,6 @@ Delving Deeper into Convolutional Networks for Learning Video Representations
 
 # Architecture
 
-[Spatio-temporal Video Autoencoder with Differentiable Memory](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Architecture/Spatio-temporalVideoAutoencoderwithDifferentiableMemory.md)
-
 
 
 
