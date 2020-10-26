@@ -10,8 +10,31 @@ Sounds originate from object motions and vibrations of surrounding air. Inspired
 
 
 
-## Framework
+## Method
 
 The framework is consist of four components: a **motion network**, an **appearance network**, a **fusion module**, and a **sound separation network**. The motion network takes a sequence of frames and outputs trajectory features; appearance network takes the first video frame and outputs appearance features; fusion module fuses appearance and trajectory features; sound separation network separates the input audio conditioned on the visual features.
 
-![framework]()
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofMotion/framework.png)
+
+
+
+**Mix-and-Separate self-supervised learning framework** similar with [Sound of Pixels](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/The_Sound_of_Pixels.md)
+
+**Fusion Module**
+
+![fusion](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofMotion/framework.png)
+
+**Curriculim Learning on Sound Separation Net**
+
+* 1) Sound separation on mixture of different instruments;
+* 2) Sound separation on mixture of the same kinds of instruments:
+* 3) Sound separation on mixture from the same videos.
+
+
+
+## Experiments
+
+**Pixel-level sound embedding results compared with [Sound of Pixels](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/The_Sound_of_Pixels.md).**
+
+![results](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofMotion/results.png)
+
