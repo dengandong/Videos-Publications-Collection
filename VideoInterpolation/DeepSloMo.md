@@ -26,7 +26,7 @@ The input of the model consists of two part: Main videos (*keyframes*) with high
 
 **Frame Alignment**
 
-Initial flow estimation is computed by [PWC-Net](https://arxiv.org/pdf/1709.02371.pdf) based on low-resolution auxiliary frames. The resolution of the initial flow is equal to the main frames. This is implemented by first upsampling the low-resolution frames and conputing the flows.
+Initial flow estimation is computed by [PWC-Net](https://github.com/antony0621/Videos-Publications-Collection/blob/master/OpticalFlow/PWC-Net.md) based on low-resolution auxiliary frames. The resolution of the initial flow is equal to the main frames. This is implemented by first upsampling the low-resolution frames and conputing the flows.
 
 After this, residual flows, which provide high-frequency details, are estimated in the flow enhancement step. This setup is similar with [SuperSloMo](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoInterpolation/SuperSloMo.md).
 
