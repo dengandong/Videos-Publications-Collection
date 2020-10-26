@@ -8,3 +8,15 @@ Slow motion videos are becoming increasingly popular, but capturing high-resolut
 
 [[paper]](https://arxiv.org/pdf/2002.12106.pdf) [[code]](https://github.com/avinashpaliwal/Deep-SloMo)
 
+
+
+## Methods
+
+Hypothesis: The relationship between neighbor frames is non-linear.
+
+**Hybrid Imaging System**
+
+The input of the model consists of two part: High-resolution but Low-FPS frames and Low-resolution but High-FPS frames
+
+
+
