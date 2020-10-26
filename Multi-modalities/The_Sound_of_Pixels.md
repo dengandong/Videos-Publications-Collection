@@ -12,5 +12,19 @@ We introduce PixelPlayer, a system that, by leveraging large amounts of unlabele
 
 ## Method
 
-![framework]()
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofPix/framework.png)
+
+**Mix-and-Separate Moduel, which becomes a standard framework for audio-visual self-supervised learning**
+
+![module](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofPix/module.png)
+
+
+
+## Experiments
+
+**Qualitative results on vision-guided source separation on synthetic audio mixtures**
+
+![results](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/SoundofPix/results.png)
+
+
 
