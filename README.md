@@ -133,6 +133,12 @@ FlowNet
 
 
 
+## SfM
+
+[SfM-Net](https://github.com/antony0621/Videos-Publications-Collection/blob/master/SfM/SfM-Net.md)
+
+
+
 ## Video Interpolation
 
 [Super SloMo](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoInterpolation/SuperSloMo.md)
