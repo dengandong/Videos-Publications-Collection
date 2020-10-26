@@ -165,7 +165,7 @@ Learning Blind Video Temporal Consistency
 
 ## Multi-modalities
 
-[Aligning Books and Movies]()
+[Aligning Books and Movies](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/AligningBooks%26Movies.md)
 
 [SoundNet](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/SoundNet.md)
 
