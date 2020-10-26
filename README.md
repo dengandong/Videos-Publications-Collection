@@ -177,6 +177,10 @@ Learning Blind Video Temporal Consistency
 
 [Self-supervised Moving Vehicle Tracking with Stereo Sound](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Self-supervised_Moving_Vehicle_Tracking_with_Stereo_Sound.md)
 
+[Music Gesture for Visual Sound Separation](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/MusicGestureforVisualSoundSeparation.md)
+
+[Self-supervised Audio-visual Co-segmentation](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Self-supervisedAudio-visualCo-seg.md)
+
 
 
 ## Video Object Segmentation
