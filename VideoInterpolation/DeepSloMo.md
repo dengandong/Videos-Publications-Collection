@@ -14,9 +14,29 @@ Slow motion videos are becoming increasingly popular, but capturing high-resolut
 
 Hypothesis: The relationship between neighbor frames is non-linear.
 
-**Hybrid Imaging System**
+![nonlinear](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/non-linear.png)
 
-The input of the model consists of two part: High-resolution but Low-FPS frames and Low-resolution but High-FPS frames
+**Hybrid Imaging System (Dual Camera Setup)**
+
+![ImagingSys](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/ImagingSys.png)
+
+The input of the model consists of two part: Main videos (*keyframes*) with high-resolution but low-fps  and auxiliary videos with low-resolution but high-fps frames, and the ouutput is the reconstruction of a video with the spatial resolution and frame rate of the main and auxiliary videos, respectively. 
+
+![framework](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/framework.png)
+
+**Frame Alignment**
+
+Initial flow estimation is computed by [PWC-Net](https://arxiv.org/pdf/1709.02371.pdf) based on low-resolution auxiliary frames. The resolution of the initial flow is equal to the main frames. This is implemented by first upsampling the low-resolution frames and conputing the flows.
+
+After this, residual flows, which provide high-frequency details, are estimated in the flow enhancement step. This setup is similar with [SuperSloMo](https://github.com/antony0621/Videos-Publications-Collection/blob/master/VideoInterpolation/SuperSloMo.md).
+
+**Appearance Estimation**
+
+Similar with ***SuperSloMo***.
+
+
+
+More like a frame super resolution method.
 
 
 
