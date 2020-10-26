@@ -36,7 +36,16 @@ Similar with ***SuperSloMo***.
 
 
 
-More like a frame super resolution method.
+More like a frame super resolution method?
 
 
 
+## Results
+
+**Comparison with SOTA**
+
+![results](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/results.png)
+
+**Comparison with Gupta's method**
+
+![gupta](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/DeepSloMo/gupta.png)
