@@ -89,6 +89,18 @@ Delving Deeper into Convolutional Networks for Learning Video Representations
 
 
 
+## Temporal Consistency
+
+Blind Video Temporal Consistency via Deep Video Prior
+
+Blind video temporal consistency
+
+Learning blind video temporal consistency
+
+Occlusion-aware video temporal consistency
+
+
+
 ## Video Inpainting
 
 Copy-and-Paste
@@ -182,6 +194,14 @@ Learning Blind Video Temporal Consistency
 [Music Gesture for Visual Sound Separation](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/MusicGestureforVisualSoundSeparation.md)
 
 [Self-supervised Audio-visual Co-segmentation](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Self-supervisedAudio-visualCo-seg.md)
+
+Labelling Unlabelled Videos from Scratch With Multi-modal Self-supervision
+
+Listen to Look: Action Recognition by Previewing Audio
+
+Cooperative Learning of Audio and Video Models from Self-Supervised Synchronization
+
+Self-Supervised Learning by Cross-Modal Audio-Video Clustering
 
 
 
