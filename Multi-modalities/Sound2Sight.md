@@ -12,7 +12,9 @@ Learning associations across modalities is critical for robust multi-modal reaso
 
 ## Structure
 
+![structure](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/Sound2Sight/structure.png)
 
+![submodule](https://github.com/antony0621/Videos-Publications-Collection/blob/master/pics/Sound2Sight/submodule.png)
 
 
 
