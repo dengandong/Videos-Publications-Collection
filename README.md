@@ -205,6 +205,8 @@ Self-Supervised Learning by Cross-Modal Audio-Video Clustering
 
 [Sound2Sight: Generating Visual Dynamics from Sound and Context](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Sound2Sight.md)
 
+[Video Generation From Text](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/VideoGenerationFromText.md)
+
 
 
 ## Video Object Segmentation
