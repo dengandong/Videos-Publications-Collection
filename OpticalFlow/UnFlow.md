@@ -1,0 +1,14 @@
+# UnFlow: Unsupervised Learning of Optical Flow with a Bidirectional Census Loss
+
+
+
+## Abstract
+
+In the era of end-to-end deep learning, many advances in computer vision are driven by large amounts of labeled data. In the optical flow setting, however, obtaining dense per- pixel ground truth for real scenes is difficult and thus such data is rare. Therefore, recent end-to-end convolutional net- works for optical flow rely on synthetic datasets for supervision, but the domain mismatch between training and test scenarios continues to be a challenge. Inspired by classical energy-based optical flow methods, we design an unsupervised loss based on occlusion-aware bidirectional flow etimation and the robust census transform to circumvent the need for ground truth flow. On the KITTI benchmarks, our unsupervised approach outperforms previous unsupervised deep networks by a large margin, and is even more accurate than similar supervised methods trained on synthetic datasets alone. By optionally fine-tuning on the KITTI training data, our method achieves competitive optical flow accuracy on the KITTI 2012 and 2015 benchmarks, thus in addition enabling generic pre-training of supervised networks for datasets with limited amounts of ground truth.
+
+[paper](https://arxiv.org/pdf/1711.07837.pdf)
+
+
+
+## Method
+
