@@ -64,7 +64,7 @@ My own explanations of the loss functions its [official implementation](https://
                flowsub = (flow[:, :, center:-center, center:-center] -
                           flow[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2
                imgsub = (img[:, :, center:-center, center:-center] -
-                         img[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2 # intensity weigh
+                         img[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2 # intensity weight
                flowsub = flowsub.sum(1)
                imgsub = imgsub.sum(1)
                indexsub = (i - center) ** 2 + (j - center) ** 2  # distance weight
@@ -109,6 +109,8 @@ My own explanations of the loss functions its [official implementation](https://
    ```
 
    This is a forward-backward consistency loss, and the mask is to ensure only visible pixels are considered.
+
+   ***TODO***
 
 9. reconlossT
 
