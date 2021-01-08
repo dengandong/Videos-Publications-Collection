@@ -64,15 +64,15 @@ My own explanations of the loss functions its [official implementation](https://
                flowsub = (flow[:, :, center:-center, center:-center] -
                           flow[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2
                imgsub = (img[:, :, center:-center, center:-center] -
-                         img[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2 # intensity weight
+                         img[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2 # intensity adaptive weight
                flowsub = flowsub.sum(1)
                imgsub = imgsub.sum(1)
-               indexsub = (i - center) ** 2 + (j - center) ** 2  # distance weight
+               indexsub = (i - center) ** 2 + (j - center) ** 2  # distance adaptive weight
                loss.append(flowsub * torch.exp(-alpha * imgsub - indexsub))
        return torch.stack(loss).sum() / (bs * w * h)
    ```
 
-   This loss generally ensures neighborhood pixels (within a 5 x 5 window) to have a similar flow value. But it should be noticed that the weights terms, the exponent of the image difference (gradient) and the index difference (distance), give those pixels with more similar in image level and more closer to the reference point (center) higher penalty. Moreover, the exponent is from Eq.3 in this paper: [As-Rigid-As-Possible Stereo under Second Order Smoothness Priors](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/ECCV_2014/papers/8690/86900112.pdf), but I have not figured it out why the exponential form is chosen. This whole idea is similar with bilateral filtering, considering both spatial domain and the color (or intensity) domain the same time. Similarly, in [UnFlow](https://arxiv.org/pdf/1711.07837.pdf), the authors utilizes a second-order mutant of this penalty.
+   This loss generally ensures neighborhood pixels (within a 5 x 5 window) to have a similar flow value. But it should be noticed that the weights terms, the exponent of the image difference (gradient) and the index difference (distance), give those pixels with more similar in image level and more closer to the reference point (center) higher penalty. Moreover, the exponent is from Eq.3 in [As-Rigid-As-Possible Stereo under Second Order Smoothness Priors](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/ECCV_2014/papers/8690/86900112.pdf) and in [MirrorFlow](https://arxiv.org/pdf/1708.05355.pdf), but I have not figured it out why the exponential form is chosen. This whole idea is similar with bilateral filtering, considering both spatial domain and the color (or intensity) domain the same time. Similarly, in [UnFlow](https://arxiv.org/pdf/1711.07837.pdf), the authors utilizes a second-order mutant of this penalty.
 
    This term may be consistent with Lukas-Kanade assumption.
 
