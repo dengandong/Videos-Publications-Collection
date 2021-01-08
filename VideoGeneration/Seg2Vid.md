@@ -34,11 +34,11 @@ Vid2Vid: Semantic label sequence to video sequence
 
 ## Loss
 
-Some explanations of its [official implementation](https://github.com/STVIR/seg2vid/blob/junting/src/losses.py).
+My own explanations of the loss functions its [official implementation](https://github.com/STVIR/seg2vid/blob/junting/src/losses.py).
 
 1. gdloss
 
-   ***TODO***
+   Unclear, maybe same with imagegradloss.
 
 2. vgg_loss
 
@@ -46,19 +46,69 @@ Some explanations of its [official implementation](https://github.com/STVIR/seg2
 
 3. _quickflowloss
 
-   ![seg2vid](https://github.com/antony0621/Publications-of-Video/blob/master/pics/Seg2Vid/_quickflowloss.png)
+   ```python
+   def _quickflowloss(self, flow, img, neighbor=5, alpha=1):
+       """
+       First order neighbor consistenncy prior.
+       LK assumption.
+       """
+       flow = flow * 128
+       img = img * 256
+       bs, c, h, w = img.size()
+       center = int((neighbor - 1) / 2)  
+       loss = []
+       neighbor_range = list(range(neighbor))
+       neighbor_range.remove(center)
+       for i in neighbor_range:
+           for j in neighbor_range:
+               flowsub = (flow[:, :, center:-center, center:-center] -
+                          flow[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2
+               imgsub = (img[:, :, center:-center, center:-center] -
+                         img[:, :, i:h - (neighbor - i - 1), j:w - (neighbor - j - 1)]) ** 2 # intensity weigh
+               flowsub = flowsub.sum(1)
+               imgsub = imgsub.sum(1)
+               indexsub = (i - center) ** 2 + (j - center) ** 2  # distance weight
+               loss.append(flowsub * torch.exp(-alpha * imgsub - indexsub))
+       return torch.stack(loss).sum() / (bs * w * h)
+   ```
 
-   This loss ensures neighborhood pixels (within a 5 x 5 window) to have a similar flow value, but the degree of the punishment is weighted by the image gradient and the distance between the pixels and its reference point. This is similar with bilateral flow filtering that at the edge of the object in an image the value of the pixels changes fast, as well as the image. Thus, in this loss, those pixels with higher image gradient should be given 
+   This loss generally ensures neighborhood pixels (within a 5 x 5 window) to have a similar flow value. But it should be noticed that the weights terms, the exponent of the image difference (gradient) and the index difference (distance), give those pixels with more similar in image level and more closer to the reference point (center) higher penalty. Moreover, the exponent is from Eq.3 in this paper: [As-Rigid-As-Possible Stereo under Second Order Smoothness Priors](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/ECCV_2014/papers/8690/86900112.pdf), but I have not figured it out why the exponential form is chosen. This whole idea is similar with bilateral filtering, considering both spatial domain and the color (or intensity) domain the same time. Similarly, in [UnFlow](https://arxiv.org/pdf/1711.07837.pdf), the authors utilizes a second-order mutant of this penalty.
+
+   This term may be consistent with Lukas-Kanade assumption.
+
+   
 
 4. _flowgradloss
 
+   Unlike the local _quickflowloss, this loss gives a global constrains to the flow that the adjacent pixels have similar flow, i.e., smothness assumption. Similarly, this loss also weighted by image intensity.
+
+   This term may be consistent with Horn-Schunck assumption.
+
 5. imagegradloss
 
-6. SSIM
+   This loss ensures the prediction and the ground truth to have closer gradients.
+
+6. Image_similarity
+
+   This loss ensures the prediction and the ground truth to have closer SSIM.
 
 7. kl_criterion
 
 8. _flowconsist
+
+   ```python
+   def _flowconsist(self, flow, flowback, mask_fw=None, mask_bw=None):
+       if mask_fw is not None:
+           # mask_fw, mask_bw = occlusion(flow, flowback, self.flowwarp)
+           prevloss = (mask_bw * torch.abs(self.flowwarp(flow, -flowback) - flowback)).mean()
+           nextloss = (mask_fw * torch.abs(self.flowwarp(flowback, flow) - flow)).mean()
+       else:
+           prevloss = torch.abs(self.flowwarp(flow, -flowback) - flowback).mean()
+           nextloss = torch.abs(self.flowwarp(flowback, flow) - flow).mean()
+       return prevloss + nextloss
+   ```
+
+   This is a forward-backward consistency loss, and the mask is to ensure only visible pixels are considered.
 
 9. reconlossT
 
