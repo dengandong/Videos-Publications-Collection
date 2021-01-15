@@ -75,7 +75,7 @@ Odd-One-Out
 
 
 
-## Action Recogniition & Representation Learning
+## Action Recognition & Representation Learning
 
 Two-Stream Fusion Network
 
