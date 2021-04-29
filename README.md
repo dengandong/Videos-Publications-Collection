@@ -209,7 +209,19 @@ Self-Supervised Learning by Cross-Modal Audio-Video Clustering
 
 [Sound2Sight: Generating Visual Dynamics from Sound and Context](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/Sound2Sight.md)
 
-[Video Generation From Text](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/VideoGenerationFromText.md)
+
+
+**Multimodal Speech Separation**
+
+[Looking to Listen at the Cocktail Party](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/multimodal%20speech%20separation/Looking%20to%20Listen%20at%20the%20Cocktail%20Party.md)
+
+[Blind Audio-Visual Source Separation based on Sparse Redundant Representations](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/multimodal%20speech%20separation/Blind%20Audio-Visual%20Source%20Separation%20based%20on%20Sparse%20Redundant%20Representations.md)
+
+[Audio-Visual Speech Enhancement Using Multimodal Deep Convolutional Neural Networks](https://github.com/antony0621/Videos-Publications-Collection/blob/master/Multi-modalities/multimodal%20speech%20separation/Audio-Visual%20Speech%20Enhancement%20Using%20Multimodal%20Deep%20Convolutional%20Neural%20Networks.md)
+
+
+
+
 
 
 
